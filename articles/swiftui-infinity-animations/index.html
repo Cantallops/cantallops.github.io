@@ -26,10 +26,7 @@
         <span class="type">Circle</span>()
             .<span class="call">opacity</span>(opacity)
             .<span class="call">foregroundColor</span>(.<span class="dotAccess">green</span>)
-            <span class="border rounded-md px-1 -mx-1 pb-0.5 border-yellow-300 inline-block">.<span class="call">animation</span>(
-    .<span class="call">easeInOut</span>(duration: <span class="number">1</span>),
-    value: opacity
-)</span>
+            <span class="border rounded-md px-1 -mx-1 pb-0.5 border-yellow-300 inline-block">.<span class="call">animation</span>(.<span class="call">easeInOut</span>(duration: <span class="number">1</span>), value: opacity)</span>
             .<span class="call">onAppear</span>(perform: { opacity = <span class="number">1</span> })
     }
 }
